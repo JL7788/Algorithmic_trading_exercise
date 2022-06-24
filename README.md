@@ -27,13 +27,13 @@ from sklearn.metrics import classification_report<br />
 ## Findings/Analysis 
 
 The provided data was first loaded into a data frame and the rest of the provided data was ran in order to find the signals dataframe and generate the SMA_Fast and SMA_Slow columns. The first graph that was created was used to visualize the firms existing strategy returns, shown below.
-![](./Resources/graph1.png)<br />
+<br />![](./Resources/graph1.png)<br />
 
 I then used the SVC classifier model in order to run a new model with different predictions, shown below.
-![](./Resources/graph2.png)<br />
+<br />![](./Resources/graph2.png)<br />
 
 A third model was also created. Instead of using the SVC classfier, I opted to use the Decision Tree Classifier, shown below.
-![](./Resources/graph3.png)<br />
+<br />![](./Resources/graph3.png)<br />
 
 In conclusion, the SVC classifier is definitely the most accurate in terms of modeling predictions compared to that of the Decision Tree Classifier. Using the Decision Tree method, the data was extremely volatile compared to the strategy line and seems like a bad classifier to use as a testing method. I would stick to using the SVC classifier or test other classifiers instead of using DTC. 
 
