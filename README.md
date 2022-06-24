@@ -25,7 +25,7 @@ from sklearn.metrics import classification_report<br />
 <br />
 
 ## Findings/Analysis 
-image.png
+![](./Resources/graph1.png)
 
 <br />
 
